@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:iconSpaceReserved="false">
+
+    <PreferenceCategory app:title="@string/original_language">
+        <Preference
+            android:summary="@string/summary_language"
+            android:title="@string/original_language"
+            android:key="@string/key_language">
+        </Preference>
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Notification">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_release"
+            android:summary="@string/releaase"
+            android:title="@string/summary_release" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_daily"
+
+            android:summaryOn="@string/daily"
+            android:title="@string/Sumarry_DAILY" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
